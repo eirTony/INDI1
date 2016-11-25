@@ -1,57 +1,43 @@
 # -------------------------------------------------
 # Project created by QtCreator 2010-03-22T14:38:14
 # -------------------------------------------------
+QT += network \
+    xml
+CONFIG += console
+CONFIG -= app_bundle
+TEMPLATE = app
+
 QMAKE_CXXFLAGS += -fpermissive \
     -DQ_DECL_IMPORT= \
     -DQ_DECL_EXPORT=
 QMAKE_LFLAGS += --enable-stdcall-fixup -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc
 
+OUR_DEST1 = ../../common/<dir><ver><os>
+CONFIG += debug_and_release
+CONFIG(debug, debug|release) {
+        TARGET = dIfSearch
+        OUR_DEST2 = $$replace(OUR_DEST1, <dir>, dbg)
+}
+else {
+        TARGET = IfSearch
+        OUR_DEST2 = $$replace(OUR_DEST1, <dir>, bin)
+}
+OUR_DEST3 = $$replace(OUR_DEST2, <ver>, $$QT_MAJOR_VERSION)
+win32:OUR_DEST4  = $$replace(OUR_DEST3, <os>, w32)
+!win32:OUR_DEST4 = $$replace(OUR_DEST3, <os>, x32)
+OUR_DEST = $$OUR_DEST4
+LIBS *= -L$$OUR_DEST
+DESTDIR = $$OUR_DEST
+!build_pass:message(DESTDIR = $$DESTDIR)
+
 INCLUDEPATH *= ../../INDI2/oldEIRlibs
 INCLUDEPATH *= ../../INDI2/INDIlibs
-
-#LIBS *= -lCrp32DLL -L"C:/CrypKey SDK/Build 7723/Lib/DLL"
+INCLUDEPATH += .
 
 DEFINES += IJM
 DEFINES *= ENABLE_WATCHDOG
 
-OUR_DEST1 = ../../common/<dir><ver>
-#!build_pass:message($$OUR_DEST1)
-debug {
-    OUR_DEST2 = $$replace(OUR_DEST1, <dir>, dbg)
-}
-else {
-    OUR_DEST2 = $$replace(OUR_DEST1, <dir>, bin)
-}
-#!build_pass:message($$OUR_DEST2)
-
-OUR_DEST3 = $$replace(OUR_DEST2, <ver>, $$QT_MAJOR_VERSION)
-#!build_pass:message($$OUR_DEST3)
-OUR_DEST = $$OUR_DEST3
-
-CONFIG += debug_and_release
-CONFIG(debug, debug|release) {
-        DESTDIR = $$OUR_DEST
-        LIBS += -L$$OUR_DEST
-}
-else {
-        DESTDIR = $$OUR_DEST
-        LIBS += -L$$OUR_DEST
-}
-!build_pass:message(DESTDIR = $$DESTDIR)
-
-INCLUDEPATH += .
-
-#LIBS *= -lFSBridge
-#LIBS *= -leirBase -leirTypes -leirCore -leirExe
-#LIBS *= -leirFrameSource -leirImage -leirFile -leirNetwork
-
 include(../../common/OpenCV22.pri)
-QT += network \
-    xml
-TARGET = IfSearch
-CONFIG += console
-CONFIG -= app_bundle
-TEMPLATE = app
 win32:RC_FILE = IfSearch.rc
 OTHER_FILES = ../../../IJM.pri \
     rebuild.bat \
@@ -60,6 +46,7 @@ OTHER_FILES = ../../../IJM.pri \
     eIRonly24.ico \
     INDIface24.ico \
     ../../common/WinRes.rc \
+    ../../common/OpenCV22.pri \
     Rectangle.hh \
     Key.hh \
     Eyes.hh \

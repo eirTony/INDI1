@@ -1,0 +1,2 @@
+C:\QtSDK\mingw\bin\ar.exe cr ..\..\lib\libopencv_haartraining_engine.a  CMakeFiles/opencv_haartraining_engine.dir/cvboost.obj CMakeFiles/opencv_haartraining_engine.dir/cvcommon.obj CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.obj CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.obj CMakeFiles/opencv_haartraining_engine.dir/cvsamples.obj
+C:\QtSDK\mingw\bin\ranlib.exe ..\..\lib\libopencv_haartraining_engine.a

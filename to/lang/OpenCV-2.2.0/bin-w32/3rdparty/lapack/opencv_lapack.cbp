@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="opencv_lapack" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\Program Files\;CMake Files\Program Files\CMake 2.8\;CMake Files\Program Files\CMake 2.8\share\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\;CMake Files\include\;CMake Files\modules\;CMake Files\modules\calib3d\;CMake Files\modules\core\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\ffmpeg\;CMake Files\modules\highgui\;CMake Files\modules\highgui\src\;CMake Files\modules\imgproc\;CMake Files\modules\legacy\;CMake Files\modules\contrib\;CMake Files\modules\ml\;CMake Files\modules\objdetect\;CMake Files\modules\video\;CMake Files\modules\haartraining\;CMake Files\modules\traincascade\;CMake Files\modules\gpu\;CMake Files\doc\;CMake Files\data\;CMake Files\tests\;CMake Files\tests\cv\;CMake Files\tests\cxcore\;CMake Files\tests\ml\;CMake Files\tests\cxts\;CMake Files\tests\gpu\;CMake Files\3rdparty\;CMake Files\3rdparty\lapack\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libjasper\;CMake Files\3rdparty\libjpeg\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\libtiff\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_lapack">
+         <Option output="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lib/libopencv_lapack.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/lang/OpenCV-2.2.0/." />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include/opencv" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/lapack" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/lapack/../include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 opencv_lapack" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_lapack/fast">
+         <Option output="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lib/libopencv_lapack.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/lang/OpenCV-2.2.0/." />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include/opencv" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/lapack" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/lapack/../include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 opencv_lapack/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lapack/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dasum.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/daxpy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dbdsdc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dbdsqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dcopy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ddot.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgebd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgebrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgelq2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgelqf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgels.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgelsd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgemm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgemv_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgeqr2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgeqrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dger_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgesdd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgesv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgetf2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgetrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgetri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dgetrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlabad.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlabrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlacpy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlae2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaebz.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed7.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed8.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaed9.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaeda.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaev2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlagtf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlagts.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaisnan.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlals0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlalsa.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlalsd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlamch_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlamrg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaneg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlange.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlanst.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlansy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlapy2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlar1v.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarfb.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarfg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarfp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarft.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarnv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarra.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrb.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarre.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrj.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrk.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlarrv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlartg_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaruv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlas2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlascl.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd7.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasd8.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasda.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasdq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasdt.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaset.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasq6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasr_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasrt.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlassq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasv2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlaswp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlasyf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlatrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlauu2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dlauum.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dnrm2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorg2r.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorgbr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorgl2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorglq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorgqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorm2l.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorm2r.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dormbr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dorml2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dormlq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dormql.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dormqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dormtr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dpotf2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dpotrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dpotri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dpotrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/drot.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dscal.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dstebz.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dstein.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dstemr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsteqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsterf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dswap.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsyevr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsymv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsyr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsyr2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsyr2k.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsyrk.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytf2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dsytrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrmm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrmv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrsm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrti2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrtri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/dtrtrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/f77_aloc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/idamax.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ieeeck.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/iladlc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/iladlr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ilaenv_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ilaslc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ilaslr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/iparmq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/isamax.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/pow_di.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/pow_ii.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/pow_ri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/precomp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/s_cat.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/s_cmp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/s_copy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sasum.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/saxpy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sbdsdc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sbdsqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/scopy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sdot.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgebd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgebrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgelq2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgelqf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgels.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgelsd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgemm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgemv_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgeqr2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgeqrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sger_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgesdd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgesv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgetf2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgetrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgetri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sgetrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slabad.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slabrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slacpy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slae2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaebz.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed7.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed8.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaed9.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaeda.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaev2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slagtf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slagts.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaisnan.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slals0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slalsa.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slalsd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slamch_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slamrg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaneg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slange.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slanst.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slansy.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slapy2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slar1v.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarfb.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarfg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarfp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarft.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarnv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarra.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrb.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrc.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarre.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrj.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrk.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slarrv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slartg_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaruv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slas2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slascl.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd0.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd7.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasd8.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasda.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasdq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasdt.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaset.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq1.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq4.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq5.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasq6.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasr_custom.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasrt.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slassq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slasv2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slaswp.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slatrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slauu2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/slauum.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/snrm2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorg2r.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorgbr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorgl2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorglq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorgqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorm2l.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorm2r.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sormbr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sorml2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sormlq.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sormql.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sormqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sormtr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/spotf2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/spotrf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/spotri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/spotrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/srot.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sscal.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sstebz.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sstein.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sstemr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssteqr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssterf.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/sswap.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssyevr.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssymv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssyr2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssyr2k.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssyrk.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssytd2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/ssytrd.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strmm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strmv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strsm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strti2.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strtri.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/strtrs.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/xerbla.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/cblas.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/clapack.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/f2c.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVPCHSupport.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVModule.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVFindOpenEXR.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/cvconfig.h.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/opencv.pc.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/MacroAddFileDependencies.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Qt4ConfigDependentSettings.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Qt4Macros.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindOpenGL.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindDoxygen.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/UseQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/UseQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU-C.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-windres.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU-C.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/include/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\include\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ffmpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ffmpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ffmpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ffmpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/src/window_QT.qrc">
+          <Option virtualFolder="CMake Files\modules\highgui\src\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/src/window_QT.qrc">
+          <Option virtualFolder="CMake Files\modules\highgui\src\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\haartraining\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\haartraining\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\traincascade\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\traincascade\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/doc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\doc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\data\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cv\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cv\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxcore\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxcore\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxts\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxts\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\lapack\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\lapack\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="libtiff" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\Program Files\;CMake Files\Program Files\CMake 2.8\;CMake Files\Program Files\CMake 2.8\share\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\;CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\;CMake Files\include\;CMake Files\modules\;CMake Files\modules\calib3d\;CMake Files\modules\core\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\ffmpeg\;CMake Files\modules\highgui\;CMake Files\modules\highgui\src\;CMake Files\modules\imgproc\;CMake Files\modules\legacy\;CMake Files\modules\contrib\;CMake Files\modules\ml\;CMake Files\modules\objdetect\;CMake Files\modules\video\;CMake Files\modules\haartraining\;CMake Files\modules\traincascade\;CMake Files\modules\gpu\;CMake Files\doc\;CMake Files\data\;CMake Files\tests\;CMake Files\tests\cv\;CMake Files\tests\cxcore\;CMake Files\tests\ml\;CMake Files\tests\cxts\;CMake Files\tests\gpu\;CMake Files\3rdparty\;CMake Files\3rdparty\lapack\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libjasper\;CMake Files\3rdparty\libjpeg\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\libtiff\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libtiff">
+         <Option output="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lib/liblibtiff.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/lang/OpenCV-2.2.0/." />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include/opencv" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/libtiff" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/../include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 libtiff" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libtiff/fast">
+         <Option output="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/lib/liblibtiff.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/lang/OpenCV-2.2.0/." />
+            <Add directory="D:/lang/OpenCV-2.2.0/bin-w32" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include" />
+            <Add directory="D:/lang/OpenCV-2.2.0/include/opencv" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/libtiff" />
+            <Add directory="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/../include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 libtiff/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/lang/OpenCV-2.2.0/bin-w32/3rdparty/libtiff/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_aux.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_close.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_codec.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_color.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_compress.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dir.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dirinfo.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dirread.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dirwrite.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dumpmode.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_error.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_extension.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_fax3.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_fax3sm.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_flush.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_getimage.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_jbig.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_jpeg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_luv.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_lzw.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_next.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_ojpeg.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_open.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_packbits.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_pixarlog.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_predict.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_print.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_read.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_stream.cxx">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_strip.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_swab.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_thunder.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_tile.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_version.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_warning.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_win32.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_write.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_zip.c">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/tiff.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/tiffconf.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/tiffio.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/include/tiffvers.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/t4.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_config.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_dir.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_fax3.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tif_predict.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tiffio.hxx">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/tiffiop.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/uvcode.h">
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVPCHSupport.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVModule.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVFindOpenEXR.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/cvconfig.h.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/opencv.pc.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/MacroAddFileDependencies.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Qt4ConfigDependentSettings.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Qt4Macros.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindOpenGL.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindDoxygen.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/UseQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/UseQt4.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU-C.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-windres.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU-C.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/Program Files/CMake 2.8/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\Program Files\CMake 2.8\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/include/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\include\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ffmpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ffmpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ffmpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ffmpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/src/window_QT.qrc">
+          <Option virtualFolder="CMake Files\modules\highgui\src\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/highgui/src/window_QT.qrc">
+          <Option virtualFolder="CMake Files\modules\highgui\src\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\haartraining\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\haartraining\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\traincascade\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\traincascade\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/doc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\doc\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\data\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cv\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cv\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxcore\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxcore\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\ml\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxts\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/cxts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\cxts\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/tests/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\gpu\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\lapack\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/lapack/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\lapack\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="D:/lang/OpenCV-2.2.0/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

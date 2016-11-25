@@ -24,7 +24,7 @@
 #include <SkinMatchProperties.h>
 #include <SkinMatcher.h>
 
-#include "../FSBridge/FSDirectBridge.h"
+//#include "../FSBridge/FSDirectBridge.h"
 
 IfSearch::IfSearch(int argc, char *argv[])
     : QApplication(argc, argv, false)

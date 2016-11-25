@@ -29,7 +29,7 @@
 #include <HeightGrid.h>
 #include <SkinMatcher.h>
 #include <SkinMatchProperties.h>
-#include "../FSBridge/FSDirectBridge.h"
+//#include "../FSBridge/FSDirectBridge.h"
 #ifdef ENABLE_WATCHDOG
 #include <eirExe/WatchDog.h>
 #endif

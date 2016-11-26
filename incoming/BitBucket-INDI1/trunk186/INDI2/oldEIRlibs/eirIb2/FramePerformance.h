@@ -17,6 +17,9 @@ class FrameStatistics;
     ITD(Grab_Delta_msec, int, 0) \
     ITD(Frame_Delta_msec, int, 0) \
     ITD(Frame_Idle_msec, int, 0) \
+    ITD(Match_msec, int, 0) \
+    ITD(Match_count, int, 0) \
+    ITD(Match_msec_per_kcount, double, 0.0) \
 
 
 class EIRIB2SHARED_EXPORT FramePerformance : public VariableGroup

@@ -490,6 +490,13 @@ void IfSearch::processFace(void)
                  (qint64)searchMst.delta(),
                  eigenMatcher->size(),
                  msecSearches / numSearches);
+            if (frameStatistics)
+            {
+                frameStatistics->setMatch_msec(frameStatistics->getMatch_msec()
+                                               + searchMst.delta()),
+                frameStatistics->setMatch_count(frameStatistics->getMatch_count()
+                                                + eigenMatcher->size());
+            }
             if (resList.isEmpty())
             {
                 bestResult.setTier(EigenFaceSearchTier::NoMatch);

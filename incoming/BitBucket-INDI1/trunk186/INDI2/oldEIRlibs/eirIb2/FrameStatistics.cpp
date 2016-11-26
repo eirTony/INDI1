@@ -33,6 +33,12 @@ void FrameStatistics::detected(int totalFaces,
     setDetect_msec(detectMsec);
 }
 
+void FrameStatistics::matched(int msec, int count)
+{
+    setMatch_msec(msec), setMatch_count(count);
+}
+
+
 void FrameStatistics::finish(const int fwPending,
                              const QString & cacheStatus)
 {

@@ -38,5 +38,10 @@ void FramePerformance::calculate(FrameStatistics * stats,
     setFrame_Delta_msec(lastStartEms ? (startEms - lastStartEms) : 0);
     setFrame_Idle_msec(lastCompleteEms ? (startEms - lastCompleteEms) : 0);
 
+    setMatch_msec(stats->getMatch_msec());
+    setMatch_count(stats->getMatch_count());
+    if (getMatch_count())
+        setMatch_msec_per_kcount(double(getMatch_msec()) / double(getMatch_count()) / 1000.0);
+
     lastGrabEms = grabEms, lastStartEms = startEms, lastCompleteEms = completeEms;
 }

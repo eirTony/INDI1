@@ -19,6 +19,8 @@
     ITD(Writes_Pending, int, 0) \
     ITD(Complete_ems, qint64, 0) \
     ITD(Cache_Status, QString, QString()) \
+    ITD(Match_msec, int, 0) \
+    ITD(Match_count, int, 0) \
 
 class EIRIB2SHARED_EXPORT FrameStatistics : public VariableGroup
 {
@@ -32,6 +34,7 @@ public:
                   int rawObjects,
                   int strangeObjects,
                   int detectMsec);
+    void matched(int msec, int count);
     void finish(const int fwPending,
                 const QString & cacheStatus);
 };

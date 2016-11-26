@@ -39,7 +39,8 @@ public:
 private:
     EigenFaceSearchResultList computeDistance(const QList<int> & faceKeyList,
                                               const EigenFaceTemplate & tpl,
-                                              qreal maxDistance);
+                                              qreal maxDistance,
+                                              qreal minDistance);
     EigenFaceSearchResultList rankResults(const EigenFaceSearchResultList & distanceList,
                                           const int maxFaces);
     EigenFaceSearchResultList collectPersons(const EigenFaceSearchResultList & personList);

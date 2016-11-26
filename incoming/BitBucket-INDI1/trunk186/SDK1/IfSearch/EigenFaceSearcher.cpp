@@ -91,10 +91,12 @@ EigenFaceSearchResultList EigenFaceSearcher::
     int personMethod = settings->personMethod(mode, faceKey_vector_mhash.size());
     bool personMode = settings->getPersonMode();
     qreal maxDistance = settings->fMaxDistance();
+    qreal minDistance = settings->fMinDistance();
     int maxFaces = settings->maxFaces(faceKey_vector_mhash.size());
-    int minConfidence = settings->getMinConfidence();
+//    int minConfidence = settings->getMinConfidence();
 
-    EigenFaceSearchResultList distanceList = computeDistance(faceKeyList, tpl, maxDistance);
+    EigenFaceSearchResultList distanceList = computeDistance(faceKeyList, tpl,
+                                                             maxDistance, minDistance);
     EigenFaceSearchResultList rankedList = rankResults(distanceList, maxFaces);
     EigenFaceSearchResultList personList = personMode
                                             ? collectPersons(rankedList)
@@ -135,7 +137,8 @@ EigenFaceSearchResultList EigenFaceSearcher::
 EigenFaceSearchResultList EigenFaceSearcher::
     computeDistance(const QList<int> & faceKeyList,
                     const EigenFaceTemplate & tpl,
-                    qreal maxDistance)
+                    qreal maxDistance,
+                    qreal minDistance)
 {
     QList<EigenFaceVector> searchVectors = tpl.vectorMap().values();
     QList<EigenFaceVector> enrollVectors;
@@ -155,8 +158,7 @@ EigenFaceSearchResultList EigenFaceSearcher::
         foreach(EigenFaceVector searchVector, searchVectors)
         {
             qreal distance = enrollVector.distance(searchVector);
-            if (distance <= maxDistance
-                    && ! qIsNull(distance))
+            if (distance <= maxDistance && distance >= minDistance)
                 distanceList
                         << EigenFaceSearchPerson(enrollVector.personKey(),
                                                  enrollVector.faceKey(),

@@ -16,7 +16,7 @@ DEFINES *= ENABLE_WATCHDOG
 
 OUR_DEST1 = ../../common/<dir><ver>
 #!build_pass:message($$OUR_DEST1)
-debug {
+CONFIG(debug, debug|release) {
     OUR_DEST2 = $$replace(OUR_DEST1, <dir>, dbg)
 }
 else {

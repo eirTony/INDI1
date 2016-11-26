@@ -252,7 +252,7 @@ void IfSearch::start(void)
             this, SLOT(error(QString)));
 
     resultsDelimiter = appSettings->value("Options/Delimiter", "^").toString();
-    if ( ! check(0))
+    if ( ! check(368))
         return;
 
     rtn = initEigenFace();

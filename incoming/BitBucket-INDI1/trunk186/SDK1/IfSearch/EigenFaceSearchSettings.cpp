@@ -40,6 +40,7 @@ void EigenFaceSearchSettings::setDefaults(const Mode mode)
     }
 }
 
+#if 0
 qreal EigenFaceSearchSettings::fDuplicate(void) const
 {
     return getDuplicateThreshold()
@@ -51,17 +52,22 @@ bool EigenFaceSearchSettings::checkDuplicates(void) const
 {
     return !! getDuplicateThreshold();
 }
+#endif
 
 qreal EigenFaceSearchSettings::fMinDistance(void) const
 {
-    return (qreal)getMinDistance() / 1000.0;
+    qreal f = getMinDistance();
+    if (f > 1.0) f /= 1000.0;
+    if (qIsNull(f)) f = 0.0000001;
+    return f;
 }
 
 qreal EigenFaceSearchSettings::fMaxDistance(void) const
 {
-    return getMaxDistance()
-            ? ((qreal)getMaxDistance() / 1000.0)
-            : 1.0;
+    qreal f = getMaxDistance();
+    if (f > 100.0) f /= 1000.0;
+    if (qIsNull(f)) f = 1.0;
+    return f;
 }
 
 int EigenFaceSearchSettings::maxFaces(const int totalFaces) const

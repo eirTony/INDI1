@@ -1,9 +1,9 @@
 #ifndef VERSION_H
 #define VERSION_H
 
-#define VER_STRING     "v1.87"
+#define VER_STRING     "v1.86"
 #define VER_MAJOR      1
-#define VER_MINOR      87
+#define VER_MINOR      86
 #define VER_BRANCH     0
 #define VER_RELEASE    0xF0
 

@@ -11,7 +11,7 @@
 #include <QObject>
 #include <QString>
 #include <QThread>
-#include <QTreeWidgetItem>
+//#include <QTreeWidgetItem>
 
 class SettingProperty;
 
@@ -23,23 +23,26 @@ class SettingItem : public QObject
     friend class SettingProperty;
 
 public:
-    SettingItem(Settings * appSettings, QTreeWidget * Tree, Setting * Variant);
-    SettingItem(Settings * appSettings, QTreeWidget * Tree, SettingProperty * Property);
+    SettingItem(Settings * appSettings,/* QTreeWidget * Tree,*/ Setting * Variant);
+    SettingItem(Settings * appSettings,/* QTreeWidget * Tree,*/ SettingProperty * Property);
     ~SettingItem();
 
 public slots:
+#if 0
     void restoreFont(void);
     void showChanged(void);
-
+#endif
 private:
-    SettingItem(QTreeWidget * Tree, const QString & Name);
+    SettingItem(/*QTreeWidget * Tree,*/ const QString & Name);
+#if 0
     QTreeWidgetItem * makePath(const QString & Key);
     void setupItem(QTreeWidgetItem * parentItem, const QString & Name, int f, QVariant * Var);
 
 private:
     QTreeWidgetItem * item;
+#endif
     Setting * variant;
     SettingProperty * property;
     Settings * settings;
-    QTreeWidget * tree;
+//    QTreeWidget * tree;
 }; // class SettingItem

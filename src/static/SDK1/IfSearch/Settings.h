@@ -21,8 +21,8 @@
 #include <QVariant>
 class QDomElement;
 class QTimer;
-class QTreeWidget;
-class QTreeWidgetItem;
+//class QTreeWidget;
+//class QTreeWidgetItem;
 class QReadWriteLock;
 
 #include <InfoMacros.h>
@@ -132,7 +132,7 @@ public:
     { foreach(QByteArray n, PropertyNames) objectProperty(Object, BaseKey, n, F); }
     void objectProperty(QObject * Object, const QString & BaseKey, const QString & PropertyName, Flags F=0);
     void objectProperty(const QString & Key, QObject * Object, const QString & PropertyName, Flags F=0);
-    void setTreeWidget(QTreeWidget * wgt);
+//    void setTreeWidget(QTreeWidget * wgt);
     void startScanner(void);
     void startTimers(void);
     QVariant valueOf(const QString & key) const;
@@ -153,8 +153,8 @@ public: // overrides
 private:
     void construct(Setting * child);
     void destruct(Setting * child);
-    void addToTree(Setting * var);
-    void addToTree(SettingProperty * prop);
+//    void addToTree(Setting * var);
+  //  void addToTree(SettingProperty * prop);
     void emitValueChanged(QString key);
     void emitPropertyChanged(QString key);
     QString flagsString(int f);
@@ -176,7 +176,7 @@ public slots:
 
 private slots:
     void objectDestroyed(QObject * Object);
-    void itemChanged(QTreeWidgetItem * item, int column);
+//    void itemChanged(QTreeWidgetItem * item, int column);
     void changeProperty(QString key, QVariant var);
 
 signals:
@@ -188,14 +188,14 @@ signals:
 private:
     QMap<QString, Setting *> vars;
     QMultiMap<QString, SettingProperty *> properties;
-    QStringList treeKeys;
+//    QStringList treeKeys;
     QReadWriteLock * rwlVars;
     QReadWriteLock * rwlProps;
     bool WriteBack;
     bool AdvancedMode;
     int UpdateMsec;
     int PollCount;
-    QTreeWidget * tree;
+//    QTreeWidget * tree;
     SettingsScanner * scanner;
     QTimer * timerUpdate;
     QTimer * timerScan;

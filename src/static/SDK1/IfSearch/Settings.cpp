@@ -7,14 +7,14 @@
 
 #include "iSettings.h"
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QMutableMapIterator>
 #include <QTimer>
 
 
 Settings::Settings(QObject * parent = 0)
     : QSettings(parent)
-    , tree(0)
+//    , tree(0)
     , scanner(0)
     , timerUpdate(0)
     , timerScan(0)
@@ -30,7 +30,7 @@ Settings::Settings(const QString & organization,
                    const QString & application,
                    QObject * parent)
     : QSettings(organization, application, parent)
-    , tree(0)
+//    , tree(0)
     , scanner(0)
     , timerUpdate(0)
     , timerScan(0)
@@ -45,7 +45,7 @@ Settings::Settings(const QString & organization,
 Settings::Settings(const QString & iniFilename,
                     QObject * parent)
     : QSettings(iniFilename, QSettings::IniFormat, parent)
-    , tree(0)
+//    , tree(0)
     , scanner(0)
     , timerUpdate(0)
     , timerScan(0)
@@ -207,8 +207,8 @@ void Settings::construct(Setting * child)
         opts.remove(key);
         child->flags |= Settings::Dirty | Settings::Changed;
     }
-    if (tree)
-        addToTree(child);
+//    if (tree)
+  //      addToTree(child);
 } // construct()
 
 void Settings::objectProperty(QObject * Object, const QString & BaseKey, const QString & PropertyName, Flags F)
@@ -233,8 +233,8 @@ void Settings::objectProperty(const QString & Key, QObject * Object, const QStri
         opts.remove(mapKey);
         child->flags |= Settings::Dirty | Settings::Changed;
     }
-    if (tree)
-        addToTree(child);
+//    if (tree)
+  //      addToTree(child);
     if (this == Object && 0 == PropertyName.compare(tr("UpdateMsec", "config"), Qt::CaseInsensitive))
         keyForUpdateMsec = Key;
 } // objectProperty(key)
@@ -273,6 +273,7 @@ void Settings::objectDestroyed(QObject * Object)
     }
 } // objectDestroyed()
 
+#if 0
 void Settings::setTreeWidget(QTreeWidget * wgt)
 {
     if ( ! wgt)
@@ -333,7 +334,7 @@ void Settings::itemChanged(QTreeWidgetItem * item, int column)
                 prop->setValue(item->data(1, 0));
     }
 } // itemChanged()
-
+#endif
 
 QVariant Settings::valueOf(const QString & key) const
 {
@@ -388,6 +389,7 @@ void Settings::setValue(const QString & key, const QVariant newValue) const
     QSettings::setValue(key, newValue);
 } // setValue() override
 
+#if 0
 void Settings::addToTree(Setting * var)
 {
     if (tree && ! treeKeys.contains(var->key))
@@ -419,7 +421,7 @@ void Settings::startScanner(void)
 
 
 } // startScanner()
-
+#endif
 
 void Settings::changeProperty(QString key, QVariant var)
 {
@@ -444,6 +446,7 @@ void Settings::emitPropertyChanged(QString key)
 
 void Settings::setAdvancedMode(bool b)
 {
+#if 0
     AdvancedMode = b;
     foreach(Setting * var, vars)
     {
@@ -455,6 +458,7 @@ void Settings::setAdvancedMode(bool b)
         if (prop->item && prop->item->item)
             prop->item->item->setHidden( ! AdvancedMode && (prop->flags & Advanced));
     }
+#endif
 } // setAdvancedMode()
 
 

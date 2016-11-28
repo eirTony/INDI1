@@ -7,11 +7,11 @@
 #pragma once
 #include <qglobal.h>
 /*
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-//# define DDTCORE_EXPORT Q_DECL_IMPORT
-# define DDTCORE_EXPORT
+//# define  Q_DECL_IMPORT
+# define 
 #endif
 */
 
@@ -19,7 +19,7 @@
 #include <QtDebug>
 
 #include <DDTcore.h>
-#ifdef DDTCORE_LIB
+#ifdef NOTDEF
 	template <class T1, class T2> class Q_DECL_EXPORT DualMap
 #else
 	template <class T1, class T2> class DualMap

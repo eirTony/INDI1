@@ -5,10 +5,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef INDIEF_LIB
-# define INDIEF_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define INDIEF_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 
@@ -29,7 +29,7 @@ class QImage;
 
 class Return;
 
-class INDIEF_EXPORT EigenFaceTemplate
+class  EigenFaceTemplate
 {
     friend class iEigenFaceMatcherMemory;
     friend class EigenFaceGenerator;

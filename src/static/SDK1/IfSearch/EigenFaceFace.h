@@ -5,10 +5,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef INDIEF_LIB
-# define INDIEF_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define INDIEF_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 class QDomDocument;
@@ -23,7 +23,7 @@ class Return;
 #include "EigenFaceStatus.h"
 #include <EigenFaceTemplate.h>
 
-class INDIEF_EXPORT EigenFaceFace
+class  EigenFaceFace
 {
 public:
     EigenFaceFace(void);

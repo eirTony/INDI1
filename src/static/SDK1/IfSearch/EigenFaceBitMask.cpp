@@ -57,7 +57,7 @@ QImage EigenFaceBitMask::toImage(QImage::Format Format) const
 		return QImage();
 	
 	QImage image(maskSize, QImage::Format_Indexed8);
-	image.setNumColors(2);
+	image.setColorCount(2);
 	image.setColor(0, qRgb( 64,  64,  64));
 	image.setColor(1, qRgb(192, 192, 192));
 	image.fill(0);

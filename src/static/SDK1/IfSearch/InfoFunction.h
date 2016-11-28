@@ -5,10 +5,10 @@
 */
 #pragma once
 #include <qglobal.h>
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define DDTCORE_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <Info.h>
@@ -16,7 +16,7 @@
 #include <QObject>
 #include <QVariant>
 
-class DDTCORE_EXPORT InfoFunction
+class  InfoFunction
 {
 public:
     InfoFunction(const QString & FnName, const QString & File, const int Line,

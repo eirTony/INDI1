@@ -6,10 +6,12 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#if 0
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define DDTCORE_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
+#endif
 #endif
 
 #include <QFile>
@@ -19,7 +21,7 @@
 
 #include <DDTcore.h>
 
-class DDTCORE_EXPORT Return
+class  Return
 {
     friend class StatusHandler;
 

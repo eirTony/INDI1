@@ -13,7 +13,7 @@
 #include <QtDebug>
 
 #include <DDTcore.h>
-#ifdef DDTCORE_LIB
+#ifdef NOTDEF
 template <class NAMED> class Q_DECL_EXPORT NamedEnum
         #else
 template <class NAMED> class NamedEnum

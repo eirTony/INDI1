@@ -11,24 +11,24 @@
 #include <QTimer>
 
 Setting::Setting(Settings * Parent, const QString & Key, QVariant Default, Settings::Flags F)
-	: QVariant(Default), settings(Parent), key(Key), flags(F), item(0)
+    : QVariant(Default), settings(Parent), key(Key), flags(F), item(0)
 {
-	settings->construct(this);
+    settings->construct(this);
 }
 
 Setting::~Setting()
 {
-	settings->destruct(this);
+    settings->destruct(this);
 }
 
 void Setting::setValue(const QVariant & value)
 {
-	if (*(QVariant *)this != value)
-	{
-		*(QVariant *)this = value;
-		if (item)
-			item->showChanged();
-		flags |= Settings::Dirty | Settings::Changed;
-		settings->emitValueChanged(key);
-	}
+    if (*(QVariant *)this != value)
+    {
+        *(QVariant *)this = value;
+//		if (item)
+    //		item->showChanged();
+        flags |= Settings::Dirty | Settings::Changed;
+        settings->emitValueChanged(key);
+    }
 } // setValue()

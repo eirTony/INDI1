@@ -50,7 +50,7 @@
 			{ return Pixels.constData(); }
 		qreal * data(void)
 			{ return Pixels.data(); }
-		const int numBytes(void) const
+		const int byteCount(void) const
 			{ return Size.height() * Size.width() * sizeof(qreal); }
 		QByteArray bytes(void) const;
 		QImage image(QImage::Format imageFormat=QImage::Format_Indexed8) const;

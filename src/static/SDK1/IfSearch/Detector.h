@@ -5,10 +5,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef INDIFFD_LIB
-# define INDIFFD_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define INDIFFD_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <QDomElement>
@@ -35,7 +35,7 @@ class ImageCache;
 #include <QQRect.h>
 #include <Return.h>
 
-class INDIFFD_EXPORT DetectorResult
+class  DetectorResult
 {
 private:
     friend class HaarDetector;
@@ -71,7 +71,7 @@ private:
 /** HaarDetector - Base class for OpenCV Haar detectors
     *
     */
-class INDIFFD_EXPORT HaarDetector : public QObject
+class  HaarDetector : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(QString ClassName READ className)
@@ -295,7 +295,7 @@ private:
     int rawObjects;
 }; // class HaarDetector
 
-class INDIFFD_EXPORT FrontalFaceDetector : public HaarDetector
+class  FrontalFaceDetector : public HaarDetector
 {
     Q_OBJECT
 
@@ -310,7 +310,7 @@ signals:
     void processed(void);
 }; // class FrontalFaceDetector
 
-class INDIFFD_EXPORT EyeDetector : public HaarDetector
+class  EyeDetector : public HaarDetector
 {
     Q_OBJECT
 

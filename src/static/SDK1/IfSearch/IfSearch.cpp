@@ -27,7 +27,7 @@
 //#include "../FSBridge/FSDirectBridge.h"
 
 IfSearch::IfSearch(int argc, char *argv[])
-    : QApplication(argc, argv, false)
+    : QCoreApplication(argc, argv, false)
     , matchSettings(EigenFaceSearchSettings::CasualMatch, this)
     , searchSettings(EigenFaceSearchSettings::FormalSearch, this)
     , version(VER_MAJOR, VER_MINOR, VER_BRANCH,

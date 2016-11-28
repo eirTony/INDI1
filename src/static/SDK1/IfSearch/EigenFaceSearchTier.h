@@ -1,10 +1,10 @@
 #ifndef EIGENFACEMATCHTIER_H
 #define EIGENFACEMATCHTIER_H
 #include <qglobal.h>
-#ifdef INDIEF_LIB
-# define INDIEF_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define INDIEF_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include "../../INDI2/oldEIRlibs/eirBase/Enumeration.h"

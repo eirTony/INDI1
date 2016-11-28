@@ -5,10 +5,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef INDIEF_LIB
-# define INDIEF_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define INDIEF_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <QObject>
@@ -33,7 +33,7 @@ class EigenFaceSearchTier;
     TND(int, MinConfidence, 500) \
     TND(int, TierMethod, 0)   \
 
-class INDIEF_EXPORT EigenFaceSearchSettings : public QObject
+class  EigenFaceSearchSettings : public QObject
 {
     Q_OBJECT
     DECLARE_QPROPERTIES(EFSEARCHSETTINGS_QPROPERTIES)

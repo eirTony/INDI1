@@ -6,10 +6,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define DDTCORE_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <QDomElement>
@@ -20,7 +20,7 @@
 #include <DDTcore.h>
 #include <NamedEnum.h>
 
-template <class NAMED, class T> class DDTCORE_EXPORT NamedArray : public QVector<T>
+template <class NAMED, class T> class  NamedArray : public QVector<T>
 {
 public:
     NamedArray(void)

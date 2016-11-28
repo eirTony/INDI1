@@ -6,10 +6,10 @@
 
 #pragma once
 #include <qglobal.h>
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define DDTCORE_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <Return.h>
@@ -18,7 +18,7 @@
 #include <QObject>
 
 class StatusHandler;
-class DDTCORE_EXPORT WindowsProcess : public QObject
+class  WindowsProcess : public QObject
 {
     Q_OBJECT;
 public:

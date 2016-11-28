@@ -3,13 +3,13 @@
 
 #include <InfoMacros.h>
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QByteArray>
 #include <QDir>
 #include <QDomDocument>
 #include <QDomElement>
 #include <QFile>
-#include <QProgressBar>
+//#include <QProgressBar>
 #include <QString>
 
 //#define WRITE_XML

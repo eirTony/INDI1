@@ -5,7 +5,7 @@
 *
 */
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QTimer>
 
 #include <Info.h>

@@ -8,7 +8,7 @@
 #include <InfoItem.h>
 
 #include <QFileInfo>
-#include <QApplication>
+#include <QCoreApplication>
 #include <QThread>
 
 

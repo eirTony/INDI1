@@ -7,7 +7,7 @@
 
 #include <ImageMarker.h>
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QColor>
 #include <QPaintDevice>
 #include <QRect>
@@ -134,7 +134,7 @@ void ImageMarker::title(const QRect rect, const QString text, QColor color, QCol
     if (rect.isEmpty() || text.isEmpty())
         return;
 
-    if (font.isCopyOf(QApplication::font()))
+    if ( true ) //font.isCopyOf(QCoreApplication::font()))
     {
         font.setFamily("Helvetica");
         font.setPointSize(10);

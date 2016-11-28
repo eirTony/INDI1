@@ -2,10 +2,10 @@
 #define DDTCORE_H
 
 #include <qglobal.h>
-#ifdef DDTCORE_LIB
-# define DDTCORE_EXPORT Q_DECL_EXPORT
+#ifdef NOTDEF
+# define  Q_DECL_EXPORT
 #else
-# define DDTCORE_EXPORT Q_DECL_IMPORT
+# define  Q_DECL_IMPORT
 #endif
 
 #include <QList>
@@ -34,7 +34,7 @@ enum Severity
 class Return;
 class InfoOutputBase;
 
-class DDTCORE_EXPORT DDTcore
+class  DDTcore
 {
 public:
     DDTcore();

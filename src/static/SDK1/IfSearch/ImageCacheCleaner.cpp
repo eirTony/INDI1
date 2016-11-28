@@ -9,7 +9,7 @@
 #include "iImageCache.h"
 #include <InfoMacros.h>
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QReadWriteLock>
 #include <QLabel>
 
